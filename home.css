@@ -1,0 +1,52 @@
+.{ 
+    box-sizing: border-box; 
+}
+body { 
+    font-family: Arial, sans-serif; 
+    background:white; 
+    color:black; 
+}
+
+header {
+     background: black; 
+     color: white; 
+     padding: 15px 30px; 
+     display: flex; 
+     justify-content: space-between; 
+     align-items: center; 
+    }
+.logo { 
+    font-size: 24px; }
+nav a { 
+    color: wheat; 
+     margin-left: 15px; font-size: 16px; }
+nav a:hover, nav a.active { 
+    color: yellow; 
+    text-decoration: underline; }
+
+.hero { 
+    background: rgb(241, 85, 194); 
+    color: white; 
+    text-align: center; 
+    padding: 60px 20px; 
+}
+
+
+.cards { 
+    display:grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 30px; 
+    max-width: 1000px; 
+    margin: auto; 
+}
+.card { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 15px; 
+    color: black; 
+    text-align: center; 
+}
+
+
+

@@ -1,0 +1,36 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav-links{
+        background-color: maroon;
+        display: flex;
+        justify-content:space-around;
+        list-style-type: none;
+        padding: 15px;
+    }
+    .nav-links li a{
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    .nav-links li{
+        padding: 20px;
+    }
+    .firstdiv{
+        display: flex;
+        background-color: black;
+        justify-content: space-between;
+        padding: 0 20px;
+        
+        
+    }
+    .firstdiv div{
+        text-align: center;
+        background-color: aqua;
+        width: 33,.3%;
+        padding: 20px;
+        border-radius: 30px;
+        
+    }

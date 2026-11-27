@@ -1,0 +1,54 @@
+body{
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.calc{
+    background-color: black;
+    width: 320px;
+    border-radius: 25px;
+    padding: 20px;
+}
+.welcome{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    
+}
+.display{
+    color:white;
+    font-size: 35px;
+    padding: 10px 5px;
+    text-align: right;
+    font-weight: bold;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+     gap: 12px;
+}
+button{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+}
+.gray{
+    background-color: gainsboro;
+    color: black;
+}
+.orange{
+    background-color: orange;
+    color: black;
+}
+.dark{
+    background-color: burlywood;
+    color: white;
+    font-size: 30px;
+}
